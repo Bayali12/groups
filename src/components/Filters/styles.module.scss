@@ -1,0 +1,21 @@
+.filters {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+
+    .title {
+        text-align: left;
+    }
+
+    .filtersList {
+        display: flex;
+        gap: 10px;
+
+        .filter {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}

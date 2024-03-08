@@ -1,0 +1,38 @@
+.accordionWrapper {
+    position: relative;
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        transition: background-color 0.6s ease;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: #ccc;
+        }
+    }
+
+    .active {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .accordionContent {
+        position: absolute;
+        width: 100%;
+        background-color: #f7f8f9;
+        overflow: hidden;
+        transition: max-height 0.6s ease;
+        border-radius: 0 5px 5px 5px;
+
+        .accordionText {
+            font-weight: 400;
+            font-size: 14px;
+            padding: 18px;
+        }
+    }
+}
